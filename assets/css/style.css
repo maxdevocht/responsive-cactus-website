@@ -170,7 +170,7 @@ img {
         width: 80%;
         height: 100%;
         padding: 6rem 3rem 0;
-        transition: right .4s;
+        transition: right .5s;
     }
 }
 
@@ -183,7 +183,7 @@ img {
 .nav__link {
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
-    transition: color .4s;
+    transition: color .2s;
 }
 
 .nav__link:hover {
@@ -195,4 +195,8 @@ img {
     top: 1.15rem;
     right: 1.15rem;
     font-size: 1.25rem;
+}
+
+.show-menu {
+    right: 0;
 }
