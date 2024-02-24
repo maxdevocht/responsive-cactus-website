@@ -115,7 +115,7 @@ img {
 
 /* header & nav */
 .header {
-    position: absolute;
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
@@ -199,6 +199,19 @@ img {
 
 .show-menu {
     right: 0;
+}
+
+.blur-header::after {
+    content: '';
+    position: absolute;
+    width: 1000%;
+    height: 100%;
+    background-color: hsla(228, 24%, 6%, .2);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 /* home section */
