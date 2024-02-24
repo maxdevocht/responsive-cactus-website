@@ -200,3 +200,42 @@ img {
 .show-menu {
     right: 0;
 }
+
+/* home section */
+.home__container {
+    padding-top: 2.5rem;
+    row-gap: 2rem;
+}
+
+.home__img {
+    width: 270px;
+    filter: drop-shadow(var(--shadow-img));
+    justify-self: center;
+    margin-bottom: 1.5rem;
+}
+
+.home__data {
+    text-align: center;
+}
+
+.home__title {
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: 1rem;
+}
+
+.home__title span {
+    color: var(--first-color);
+}
+
+.home__description {
+    margin-bottom: 3rem;
+    padding: 0 3rem;
+}
+
+.home__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.5rem;
+}
