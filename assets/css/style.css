@@ -393,3 +393,31 @@ img {
 .shop__card:hover .shop__img {
     transform: translateY(-1rem);
 }
+
+/* care styling */
+.care__container {
+    padding: 2rem;
+    row-gap: 2rem;
+}
+
+.care__img {
+    width: 270px;
+    filter: drop-shadow(var(--shadow-img));
+    justify-self: center;
+}
+
+.care__list {
+    display: grid;
+    row-gap: 1rem;
+}
+
+.care__item {
+    display: flex;
+    column-gap: .5rem;
+    align-items: flex-start;
+}
+
+.care__item i {
+    font-size: 1.5rem;
+    color: var(--first-color);
+}
