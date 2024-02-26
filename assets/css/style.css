@@ -568,3 +568,34 @@ img {
 .show-scroll {
     bottom: 3rem;
 }
+
+/* ---- breakpoints ---- */
+/* for small devices */
+@media screen and (max-width: 345px) {
+    .container {
+        margin-inline: 1rem;
+    }
+
+    .home__title {
+        font-size: 2rem;
+    }
+
+    .home__buttons {
+        flex-direction: column;
+        row-gap: 1.5rem;
+    }
+
+    .shop__container {
+        grid-template-columns: 160px;
+        justify-content: center;
+    }
+
+    .footer__content {
+        grid-template-columns: max-content;
+    }
+}
+
+/* for medium devices */
+
+
+/* for large devices */
