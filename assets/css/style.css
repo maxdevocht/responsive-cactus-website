@@ -527,3 +527,17 @@ img {
     text-align: center;
     font-size: var(--small-font-size);
 }
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 6rem;
+    background-color: hsla(228, 4%, 15%);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: hsla(228, 4%, 25%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: hsla(228, 4%, 35%);
+}
