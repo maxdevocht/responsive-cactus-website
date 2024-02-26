@@ -214,6 +214,10 @@ img {
     z-index: -1;
 }
 
+.active-link {
+    color: var(--first-color);
+}
+
 /* home section */
 .home__container {
     padding-top: 2.5rem;
